@@ -5,7 +5,7 @@ var gulp   = require("gulp")
 gulp.task("build", function() {
   return gulp.src("src/*")
              .pipe(concat("3dom.min.js"))
-             .pipe(wrap({ name: "3dom" }))
+             .pipe(wrap({ name: "threedom" }))
              .pipe(gulp.dest("./dist/"));
 });
 
